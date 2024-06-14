@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa América</title>
+
+    <link rel="icon" href="logo ico.ico" type="image/ico">
+
+    <style>
+        table, th, td {
+       border: 1px solid black; 
+      padding: 15px;
+      text-align: center; 
+      }
+    table {
+      border-collapse: collapse;
+    } 
+    #TituloPrincipal {
+        color: rgb(255, 255, 255); background-color: rgb(6, 171, 212); text-shadow: 3px 5px 5px grey; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      font-size: 60px;    text-align: center;
+    }
+    #TituloSeg {
+        color: rgb(30, 115, 241); text-shadow: 3px 5px 5px grey; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      font-size: x-large; text-align: center;
+    }
+    #subtitulo3 {
+        text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      font-size: x-large; 
+    }
+        #convocados { 
+            color: rgb(252, 252, 252); background-color: rgb(6, 171, 212); text-shadow: 3px 5px 5px grey; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      font-size: x-large; 
+        }
+    #color {
+            color: rgb(0, 67, 143);
+        
+        }
+
+        #v1 {
+            text-align: center;
+        }
+
+        #tfg {
+            background-color: rgb(48, 40, 40); color: antiquewhite;
+        }
+
+
+        .tabla1 {
+            font-family: monospace; 
+        }
+        .preg {
+            text-shadow: 3px 5px 5px grey;  text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      font-size: x-large;
+        }
+        .t1 {
+            text-align: center;
+        }
+        .t2 {
+            text-align: center; color: rgb(0, 70, 223); 
+        }
+        .color {
+            color: rgb(0, 67, 143);
+        }
+        .jugadorC {
+            font-family: monospace; color: rgb(0, 67, 143); 
+        }
+        .jugadores {
+            font-family: monospace;
+        }
+        .jugadorF {
+            width: 50% ; height:40% ;
+
+        }
+        .clubes {
+            width: 15%; height: 15%;
+
+        }
+        .contener {
+            display: flex; 
+        }
+
+        .contener2 {
+            display: flex; text-align: center; 
+        }
+        .contener3 {
+            display:flow-root ; text-align:center;  
+        }
+        .foto1 {
+            width: 10%; height: 5%; 
+        }
+        .btn {
+            display: inline-block; 
+            background-color: aquamarine; color: darkblue; 
+            text-transform:uppercase ; text-decoration: solid;
+            font-weight: 700; border-radius: 10px;
+            margin: 25px; padding: 25px;
+
+
+        }
+        .final {
+            color: darkblue; font-family: fantasy; text-align: center;
+        }
+    </style>
+        
+</head>
+
+<body>
+   
+    <div class="contener3"> 
+    <h1 id="TituloPrincipal"> <img class="foto1" src="Imagenes/logo.png"> Copa América <img class="foto1" src="Imagenes/mascota.png"> </h1> 
+   </div>
+   <br>
+
+   <p class="t1"> La copa América es el primer torneo de carácter continental de la historia del fútbol; <br> 
+    su primera edición data en el año 1916, es decir, en los años previos a la era profesional de <br> 
+    este deporte. En aquella oportunidad el primer campeón fue <b><i> Uruguay </i> </b>. <br> 
+    La Copa America 2024 es la edición número <b>48</b> de este prestigioso torneo en el que dicen <br> 
+    presente las selecciones sudamericanas como también países del centro y del norte del continente,<br> 
+    alli destaca <i> Estados Unidos</i>, ya que es el país <ins>anfitrión</ins>.</p>
+    
+    <h4 class="t2">El equipo argentino, actual campeón del mundo, se coronó como el último ganador de la Copa América <br> 
+        en una emocionante final contra Brasil, con un resultado de 1-0. El memorable partido tuvo lugar el <br> 
+        10 de julio de 2021 en el Estadio Maracaná de Río de Janeiro, Brasil, y estuvo lleno de intensidad y <br> 
+        drama hasta el último minuto.</h4> 
+        <!-- Video de argentina campeon del mundo y la copa américa-->
+        <iframe id="v1" width="560" height="315" src="https://www.youtube.com/embed/YB73NGQ0cfI?si=EqteaxLH5HejO3Ej" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <br>
+        <br>
+        <br>
+        
+        
+    <h2 id="subtitulo1"><i><ins>Paises que participan</ins></i></h2>
+    <!-- Tabla seleccion, capitan y cantidad de copas-->
+        <table> 
+            <tr> <th class="tabla1">Seleccion</th> <th class="tabla1">Capitan</th><th class="tabla1">Copas Ganadas</th> </tr>
+            <tr> 
+                <td> <a target="_blank" href="https://www.instagram.com/afaseleccion/?hl=es">Argentina</a></td> <td>Messi</td><td>15</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_Bolivia">Bolivia</a></td><td>Haquín</td><td>1</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/cbf_futebol?igsh=dm9yNDd5eXo5YXRz">Brasil</a></td><td>Vinicius Jr</td><td>9</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_Canadá">Canadá</a></td><td>Hutchinson</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_Chile">Chile</a></td><td>Bravo</td><td>2</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_Chile">Colombia</a></td><td>Rodriguez</td><td>1</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_Costa_Rica">Costa Rica</a></td><td>Calvo</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/latriecu/">Ecuador</a></td><td>Galíndez</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_los_Estados_Unidos">Estados Unidos</a></td><td>Pulsic</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_de_Jamaica">Jamaica</a></td><td>Blake</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/miseleccionmx/?hl=es">México</a></td><td>Álvarez</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/fepafut/?hl=es">Panamá</a></td><td>Godoy</td><td>0</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/albirroja/?hl=es">Paraguay</a></td><td>Almirón</td><td>2</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://es.wikipedia.org/wiki/Selección_de_fútbol_del_Perú">Perú</a></td><td>Lapadula</td><td>2</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/aufoficial/?hl=es">Uruguay</a></td><td>Valverde</td><td>15</td>
+            </tr>
+            <tr> 
+                <td><a target="_blank" href="https://www.instagram.com/selevinotinto/?hl=es">Venezuela</a></td><td>Rincón</td><td>0</td>
+            </tr>
+        </table>
+        
+        <br>
+        <br>
+        <br>
+
+    <h2 id="subtitulo2"><ins>Lugares donde se juega</ins></h2>
+    <!-- Lista ordenada-->
+    <ul class="color">
+        <li> Austin, Texas - Q2 Stadium </li>
+        <li> Atlanta, Georgia - Mercedes-Benz Stadium </li>
+        <li> Arlington, Texas - AT&T Stadium</li>
+        <li> Charlotte, Carolina del Norte - Bank Of America Stadium</li>
+        <li> East Rutherford, New Jersey - MetLife Stadium</li>
+        <li> Glendale, Arizona - State Farm Stadium</li>
+        <li> Houston, Texas - NRG Stadium</li>
+        <li> Inglewood, California - SoFi Stadium</li>
+        <li> Kansas City, Kansas - Children's Mercy Park</li>
+        <li> Kansas City, Missouri - GEHA Field at Arrowhead Stadium</li>
+        <li> Las Vegas, Nevada - Allegiant Stadium</li>
+        <li> Miami Gardens, Florida - Hard Rock Stadium</li>
+        <li> Santa Clara, California - Levi's Stadium</li>
+        <li> Orlando, Florida - Exploria Stadium</li>
+
+    </ul>
+    <br>
+    <br>
+    <br>
+
+       <h2 id="subtitulo3"><i><ins>Copa de Campeones Conmebol-UEFA 2024</ins></i></h2>
+    <p class="t1">El ganador de la Copa América es, a su vez, finalista por una copa intercontinental contra  el ganador de la <i>Eurocopa</i>. <br> 
+    Este último, mantiene la misma lógica que la americana, pero con los países del viejo continente. <br></p>
+    <p id="color" class="t1">Esta copa consiste en un partido único para definir al gran vencedor.<br></p>
+    <p class="t1">La Copa de Campeones Conmebol-UEFA 2022, o por su nombre comercial Finalissima 2022, fue la tercera <br>
+    edición del torneo, de la cual, Argentina salió victoriosa al imponerse contra la selección italiana, <br>
+    terminando el encuentro con un marcador 3 a 0.</p>
+    
+    <!-- Video inc. Argentina Campeón y links en palabras Eurocopa y Copa de Campeones... -->
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3oQheIJvksE?si=1V-p1uU30P0JhoWh" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <br>
+    <br>
+    <br>
+
+    <h2 id="subtitulo4"><ins>Partidos: Fase de grupos</ins></h2> 
+    <!--Tabla--> 
+    
+    <div class="contener"> 
+    <table id="tfg"> 
+    <tr> 
+        <th colspan="2">Grupo A</th> <th colspan="2">Grupo B</th> <th colspan="2">Grupo C</th> <th colspan="2">Grupo D</th> 
+    </tr>
+    <tr> 
+        <td colspan="2">Argentina</td><td colspan="2">México</td> <td colspan="2">Estados Unidos</td> <td colspan="2"> Brasil</td>
+    <tr> 
+        <td colspan="2">Perú</td><td colspan="2">Ecuador</td><td colspan="2">Uruguay</td><td colspan="2">Colombia</td> 
+    </tr>
+    <tr> 
+        <td colspan="2">Chile</td><td colspan="2">Venezuela</td><td colspan="2">Panamá</td><td colspan="2">Paraguay</td> 
+    </tr>
+    <tr> 
+        <td colspan="2">Canadá</td><td colspan="2">Jamaica</td><td colspan="2">Bolivia</td><td colspan="2">Costa Rica</td> 
+    </table> <img src="Imagenes/Jornada1.png" style= "margin: 5% ;width: 50%";height="50%;"> <img src="Imagenes/Jornada2.png" style= "margin: 5% ;width: 50%";height="50%;"> <img src="Imagenes/Jornada3.png" style= "margin: 5% ;width: 50%";height="50%;">
+    </div>
+    
+    <br>
+    <br>
+    <br>
+
+    <h1 id="TituloSeg"><i><ins>Selección Argentina</ins></i></h1>
+    <p class="t1">Argentina, en su calidad de actual campeón de la Copa América, dará inicio al nuevo torneo del 2024<br>
+    con su primer partido el próximo 20 de junio. A continuación, se presenta la lista de jugadores convocados para la copa:</p>
+    <!-- Tabla -->
+        <table id="tablajug"> 
+            <tr>
+                <th colspan="5" id="convocados">Convocados de la Seleccion Argentina Copa América 2024</th>
+           </tr>
+            <tr>
+                 <td><!--imagen--></td> <th>Jugador</th> <th>Posición</th> <th>N°</th> <th>Clubes</th>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/messi-jugadores.jpg.png" alt="Lionel Messi" class="jugadorF" ;></td><td class="jugadorC"> <a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/10973-lionel-messi"> Lionel Messi</a></td><td class="jugadorC">Delantero</td><td>10</td><td> <img class="clubes" src="Imagenes/InterMiami.png"> <img class="clubes" src="Imagenes/barcelona.jpeg"> </td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/dibu-jugadores.png" alt="Emiliano Martinez";></td><td class="jugadores"> <a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/150335-emiliano-martinez#google_vignette"> Emiliano Martinez</a></td><td class="jugadores">Arquero</td><td>23</td> <td> <img class="clubes" src="Imagenes/astonv.jpeg"> <img class="clubes" src="Imagenes/arsenal.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/pulpo-jugadores.png" alt="Franco Armani" class="jugadorF" ;></td><td class="jugadores"> <a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/111004-franco-armani"> Franco Armani</a></td><td class="jugadores">Arquero</td><td>1</td> <td><img class="clubes" src="Imagenes/river.jpeg"></td> 
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/rulli-jugadores.png" alt="Gerónimo Rulli" class="jugadorF" ;></td><td class="jugadores"> <a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/198684-geronimo-rulli"> Gerónimo Rulli</a> </td><td class="jugadores">Arquero</td><td>12</td> <td><img class="clubes" src="Imagenes/ajax.jpeg" ><img class="clubes" src="Imagenes/Edlp.png" ></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/molina-jugadores.png" alt="Nahuel Molina" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/187734-nahuel-molina">Nahuel Molina</a></td><td class="jugadores">Defensor</td><td>26</td> <td><img class="clubes" src="Imagenes/amadrid.jpeg"><img class="clubes" src="Imagenes/udinese.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/montiel-jugadores.png" alt="Gonzalo Montiel" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/296677-gonzalo-montiel">Gonzalo Montiel</a></td><td class="jugadores">Defensor</td><td>4</td> <td><img class="clubes" src="Imagenes/NotF.jpeg"><img class="clubes" src="Imagenes/river.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/cuti-jugadores.png" alt="Cuti Romero" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/304280-cristian-romero">Cristian Romero</a></td><td class="jugadores">Defensor</td><td>13</td> <td><img class="clubes" src="Imagenes/totSp.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/pezzella-jugadores.png" alt="German Pezzela" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/154550-german-pezzella">German Pezzela</a></td><td class="jugadores">Defensor</td><td>6</td> <td><img class="clubes" src="Imagenes/Real betis.png"><img class="clubes" src="Imagenes/river.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/ota-jugadores.png" alt="Nico Otamendi" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/35838-nicolas-otamendi">Nicolás Otamendi</a></td><td class="jugadores">Defensor</td><td>19</td> <td><img class="clubes" src="Imagenes/benfica.jpeg"><img class="clubes" src="Imagenes/mcity.jpeg" ></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/lisandro-jugadores.png" alt="Lisandro Martinez" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/314060-lisandro-martinez">Lisandro Martinez</a></td><td class="jugadores">Defensor</td><td>25</td> <td><img class="clubes" src="Imagenes/munited.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/huevo-jugadores.png" alt="Marcos Acuña" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/149588-marcos-acuna">Marcos Acuña</a></td><td class="jugadores">Defensor</td><td>8</td> <td><img class="clubes" src="Imagenes/sevilla.jpeg"><img class="clubes" src="Imagenes/rasin.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/taglia-jugadores.png" alt="Nicolas Tagliafico" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/133400-nicolas-tagliafico">Nicolás Tagliafico</a></td><td class="jugadores">Defensor</td><td>3</td> <td><img sclass="clubes" rc="Imagenes/olympique.jpeg"><img class="clubes" src="Imagenes/independiente.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/fideo-jugadores.png" alt="Angel Di Maria" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/21136-angel-di_maria">Ángel Di Maria</a></td><td class="jugadores">Delantero</td><td>11</td> <td><img class="clubes" src="Imagenes/benfica.jpeg"><img class="clubes" src="Imagenes/psg.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/toro-jugadores.png" alt="Lautaro Martinez" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/279784-lautaro-martinez">Lautaro Martinez</a></td><td class="jugadores">Delantero</td><td>22</td> <td><img class="clubes" src="Imagenes/intermilan.jpeg"><img class="clubes" src="Imagenes/rasin.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/juli-jugadores.png" alt="Julián Álvarez" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/370714-julian-alvarez">Julián Alvarez</a></td><td class="jugadores">Delantero</td><td>9</td> <td><img class="clubes" src="Imagenes/mcity.jpeg"><img class="clubes" src="Imagenes/river.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/nicog-jugadores.png" alt="Nicolás González" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/312498-nicolas-gonzalez">Nicolás González</a></td><td class="jugadores">Delantero</td><td> 15 </td> <td><img class="clubes" src="Imagenes/fiorent.jpeg"><img class="clubes" src="Imagenes/argjr.png"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/depaul-jugadores.png" alt="Rodri De Paul" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/193130-rodrigo-de_paul">Rodrigo De Paul</a></td><td class="jugadores">Volante</td><td>7</td> <td><img class="clubes" src="Imagenes/amadrid.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/paredes-jugadores.png" alt="Leandro Paredes" class="jugadorF";></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/121638-leandro-paredes">Leandro Paredes</a></td><td class="jugadores">Volante</td><td>5</td> <td><img class="clubes" src="Imagenes/Roma.png"><img class="clubes" src="Imagenes/psg.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/macallister-jugadores.png" alt="Alexis Mac Allister" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/309971-alexis-mac_allister">Alexis Mac Allister</a></td><td class="jugadores">Volante</td><td>20</td> <td><img class="clubes" src="Imagenes/liverpool.jpeg"><img class="clubes" src="Imagenes/brighton.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/guido-jugadores.png" alt="Guido Rodriguez" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/245167-guido-rodriguez">Guido Rodriguez</a></td><td class="jugadores">Volante</td><td>18</td> <td><img class="clubes" src="Imagenes/Real betis.png"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/enzo-jugadores.png" alt="Enzo Fernandez" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/375220-enzo-fernandez">Enzo Fernandez</a></td><td class="jugadores">Volante</td><td>24</td> <td><img class="clubes" src="Imagenes/chelsea.jpeg"><img class="clubes" src="Imagenes/river.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/exequiel-jugadores.png" alt="Exequiel Palacios" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/280124-exequiel-palacios">Exequiel Palacios</a></td><td class="jugadores">Volante</td><td>14</td> <td><img class="clubes" src="Imagenes/bayern.jpeg"><img class="clubes" src="Imagenes/river.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/balerdi-jugadores.png" alt="Leonardo Balerdi" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/362899-leonardo-balerdi">Leonardo Balerdi</a></td><td class="jugadores">Defensor</td><td> - </td> <td></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/mquarta-jugadores.png" alt="Lucas Martinez Quarta" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/310113-lucas-martinez_quarta">Lucas Martinez Quarta</a></td><td class="jugadores">Defensor</td><td> 2 </td> <td><img class="clubes" src="Imagenes/fiorent.jpeg"><img class="clubes" src="Imagenes/river.jpeg"></td>
+            </tr>
+            <tr> 
+                <td></td><td class="jugadores">Valentin Barco</td><td class="jugadores">Defensor</td><td> - </td> <td></td>
+            </tr>
+            <tr> 
+                <td></td><td class="jugadores">Valentin Carboni</td><td class="jugadores">Delantero</td><td> - </td> <td></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/angelc-jugadores.png" alt="Ángel Correa" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/197841-angel-correa">Ángel Correa</a></td><td class="jugadores">Delantero</td><td> 21 </td> <td><img class="clubes" src="Imagenes/amadrid.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/garnacho-jugadores.png" alt="Ale Garnacho" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/467647-alejandro-garnacho">Alejandro Garnacho</a></td><td class="jugadores">Delantero</td><td> 17 </td> <td><img class="clubes" src="Imagenes/munited.jpeg"></td>
+            </tr>
+            <tr> 
+                <td><img src="Imagenes/giovani-jugadores.png" alt="Gio Lo Celso" class="jugadorF" ;></td><td class="jugadores"><a target="_blank" href="https://www.footballdatabase.eu/es/jugador/detalles/268344-giovani-lo_celso">Giovani Lo Celso</a></td><td class="jugadores">Volante</td><td> 16 </td> <td><img class="clubes" src="Imagenes/totSp.jpeg"></td>
+            </tr>
+        </table>
+       
+    <br>
+    <br>
+    <br>
+
+        <h1 class="t1"><i><iins> Argentina vs Uruguay </iins></i></h1>
+        <p class="t1"> Argentina y Uruguay son los máximos ganadores con 15 copas cada uno. <br> 
+            El vigente campeón del mundo alcanzó el récord uruguayo al haber conquistado el último torneo continental. <br></p>
+         <br>
+         <!-- Imagen de ambas selecciones-->
+         <div class="contener2"> 
+            <img src="Imagenes/seleccion Arg.png"> <img src="Imagenes/seleccion uru.png"> 
+         </div> 
+            <p class="preg">¿Será que en ésta edición se de el caso de un nuevo máximo ganador de la Copa América?</p>
+            <br> 
+            <br>
+            <br> 
+            <br>
+            
+            <h1><i><ins></ins>Videos de interés</ins></i></h1>
+            <br> 
+            <div class="contener2"> 
+                <a target="_blank" href="https://www.youtube.com/watch?v=IvIOIk2r4ag" class="btn"> Datos y Records de la COPA AMÉRICA</a> 
+                <a target="_blank" href="https://www.youtube.com/watch?v=gY-6381jx0I&list=PLtnGzh-gPV7DvMdjpMCNmZYaqNCrntCfv" class="btn">Historia de la COPA AMÉRICA</a>
+            </div> 
+            
+            <br> 
+            <br>
+            <br>
+            <!--Video de Messi levantando la copa del mundo-->
+            <h2 class="final"> 
+                Considerando que esta será una de las últimas competencias de <br>
+                Lionel Messi, Ángel Di María y otros jugadores con la albiceleste, <br>
+                deseamos que su retiro del seleccionado argentino esté marcado por otra inmensa alegría,<br>
+                similar a la que nos regalaron el 18 de diciembre de 2022.</h2>
+                 
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZMSbUescDZ4?si=RtNCSoOT1qL6dsR7" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
